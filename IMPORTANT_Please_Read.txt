@@ -1,0 +1,16 @@
+Il login per la parte privata è
+nome utente: pippo
+password: hulk
+Ho semplicemente memorizzato nome utente e password dentro delle variabile, e non ci sono altri utenti oltre che questo
+
+Quello che funziona:
+-Il login funziona, e viene creata una sessione che permette di accedere alla parte privata del programma una volta che si è autenticati
+-Si può effettuare il logout
+-Monolog registra al momento soltanto i tentativi di login 
+-Ho largamente usato plates, ed i templates sono soltanto nella cartella templates_html
+-Ho creato una finestra di popup is javascript che informi dei login e dei logout
+- front-end/homepage.php è appunto l'homepage, ma lo è sia della parte pubblica sia della parte privata
+in base alla sessione vengono nascosti degli elementi della pagina tramite css
+-la ricerca funziona solo per il secondo campo, ovvero quello del nome per ogni categoria
+-la ricerca è asincrona
+-il bottone di delete si crea una volta effettuata la ricerca e trovato dei campi, tuttavia non funziona

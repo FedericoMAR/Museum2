@@ -1,0 +1,10 @@
+{
+    "require": {
+        "sergeytsalkov/meekrodb": "*",
+        "monolog/monolog": "^3.2",
+        "league/plates": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
